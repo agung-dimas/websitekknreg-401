@@ -4,7 +4,7 @@ on:
   schedule:
     # Jalankan setiap 6 hari sekali pada pukul 00:00 UTC
     # Cron: menit jam hari bulan hari-dalam-seminggu
-    - cron: '0 0 */6 * *'
+    - cron: '0 0 */3 * *'
   workflow_dispatch: # Memungkinkan trigger manual
 
 jobs:
