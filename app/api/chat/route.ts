@@ -105,7 +105,7 @@ Jika menerima pertanyaan di luar konteks KKN atau Panti Asuhan (misal: politik, 
         try {
             // Try primary requested model
             const completion = await client.chat.completions.create({
-                model: "meta-llama/llama-4-scout-17b-16e-instruct",
+                model: "openai/gpt-oss-safeguard-20b",
                 messages: requestPayload,
                 temperature: 0.7,
                 max_tokens: 600,
